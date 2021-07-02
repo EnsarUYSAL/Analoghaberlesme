@@ -291,7 +291,7 @@ def PM (Vc,fc,kp):
     plt.title('Mesaj sinyali')
     plt.plot(t,mt) # Mesaj sinyalini çizdiriyoruz
     plt.grid
-    plt.show()
+    plt.show() # Çizdirilenleri ekrana yazdırdık
 def FM (Vc,fc,kf):
     prc=500 # pi ataması yapılıyor kütüphane kullanımını "pi" değişkenine atadık
     pi=math.pi # 0 ile 1 arasında alınacak örnek sayısını belirledik
